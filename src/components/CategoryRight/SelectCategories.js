@@ -9,7 +9,6 @@ const SelectCategories = ({
 }) => {
   const [selectErr, setSelectErr] = useState(false);
   const navigate = useNavigate();
-
   const handleNextPageClick = () => {
     if (selectedCategories.length >= 3) {
       localStorage.setItem(
