@@ -5,7 +5,6 @@ import { MOVIES_API_KEY } from '../../api';
 const Card = ({genreId}) => {
     const [movies, setMovies] = useState([]);
     const [loading, setLoading] = useState(true);
-    
   
     useEffect(() => {
       handleMovies()
